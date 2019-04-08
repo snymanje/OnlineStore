@@ -1,0 +1,11 @@
+.slideshow {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    position: relative;
+
+    &-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
